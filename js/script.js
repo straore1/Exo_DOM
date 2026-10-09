@@ -34,7 +34,7 @@ const updateTotal = () => {
   const formattedTotal = new Intl.NumberFormat("fr-FR", {
     maximumFractionDigits: 2,
   }).format(total);
-  totalElement.textContent = `${formattedTotal} $`;
+  totalElement.textContent = `${formattedTotal} F CFA`;
 };
 
 productList.addEventListener("click", (event) => {
